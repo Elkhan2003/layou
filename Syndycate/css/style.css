@@ -1,0 +1,40 @@
+.conteiner {
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 200px;
+
+  }
+
+  .block-items {
+    width: 150px;
+    border: 1px solid;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .block-items[block-color='1'],
+  .block-items[block-color='2'],
+  .block-items[block-color='3'] {
+    color: blue;
+  }
+
+  .block-items[block-color='4'],
+  .block-items[block-color='5'],
+  .block-items[block-color='6'] {
+    color: orange;
+  }
+
+  .block-items[block-color='7'],
+  .block-items[block-color='8'],
+  .block-items[block-color='9'] {
+    color: red;
+  }
